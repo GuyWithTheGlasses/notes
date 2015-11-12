@@ -1,0 +1,40 @@
+When we fork a new project, what do we look at first?
+1. README - sorts by capitalization, you need this
+Sometimes you also have Changes log and Todo log (but GitHub takes care of those)
+
+2. Directory structure & filenames
+* conventions like Driver.java, app.py, utils.py
+* might want to seperate into folders once they get too big
+
+Also you want to delete unused code or at least clearly show what code is used or not.
+
+Like this (for C)
+
+/*---------------------------------------- mod.c -----------------------------------------*/
+
+/*
+  description of the module
+  
+  void f1(int x) - brief description of function f1
+  
+  void f2(int a, int b) - brief description of function f2
+*/
+
+/*--------------------------------------- includes ---------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <mod.h>
+
+/*---------------------------- defines / globals / constants -----------------------------*/
+
+/*------------------------------------- constructors -------------------------------------*/
+
+/*-------------------------------------- functions ---------------------------------------*/
+
+
+Try to fit one function on a screen. It makes things a lot easier, and it's a good rule of thumb.
+80 columns - standard width of a terminal
+Stick to the conventions of the language you're using.
+
+Use things like JavaDoc (/**) when possible.
