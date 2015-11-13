@@ -1,0 +1,8 @@
+PEP 0008 (Python Enhancement Proposal), by Guido
+The Google Python Style Guide
+
+No one style is correct, just choose one to use.
+Instead of just Javadoc, Pydoc, or whatever
+There is Sphinx.
+A huge documentation program that makes everything look incredily pretty. The Flask and Jinja websites both use this.
+Sphnix Napoleon is especially nice.
